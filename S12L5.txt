@@ -1,0 +1,6 @@
+Come riportato nella figura "1" i parametri passati nel Main sono 8 mentre le variabili all'interno di quest'ultimo sono 4 (Figura 2).
+Nella figura 3 ci sono alcune librerie importate dal malware.
+Lo scopo della funzione chiamata alla locazione di memoria 00401021 è di creare una nuova chiave del registro di sistema o aprirne una già esistente.
+I parametri vengono passati alla funzione nello stack durante l'esecuzione del codice.
+Il segmento di codice analizzato tra gli indirizzi 00401027 e 00401029 si occupa di creare o modificare chiavi del registro di sistema.
+Il valore del parametro « ValueName» alla locazione 00401047 è "GinaDLL", questo parametro specifica il nome del valore del registro di sistema che in malware tenta di importare.
